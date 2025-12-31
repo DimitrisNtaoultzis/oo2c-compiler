@@ -40,5 +40,5 @@ From the project root directory:
 Using gcc (e.g. via MinGW):
 `gcc out.c -o out.exe`
 
-3) Run the executable
+### 3) Run the executable
 `./out.exe`
