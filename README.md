@@ -34,14 +34,11 @@ The compiler translates an oo2c source file into C code, which can then be compi
 ### 1) Translate oo2c to C
 From the project root directory:
 
-``bash
 `py test_symbols.py examples/shape.oos > out.c`
 
 ### 2) Compile the generated C code
 Using gcc (e.g. via MinGW):
-``bash
 `gcc out.c -o out.exe`
 
 3) Run the executable
-``bash
 `./out.exe`
